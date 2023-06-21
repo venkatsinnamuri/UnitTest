@@ -17,7 +17,7 @@ namespace UnitTestProject1
         {
             Assert.IsTrue(true);
             Console.WriteLine("First Unit test case!");
-            Console.ReadLine();
+         
         }
         public void AfterTest()
         {
