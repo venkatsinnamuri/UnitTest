@@ -31,4 +31,14 @@ steps:
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\*test*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    testFiltercriteria: '**\*UnitTestProject1*.dll'
+    runOnlyImpactedTests: false
     configuration: '$(buildConfiguration)'
