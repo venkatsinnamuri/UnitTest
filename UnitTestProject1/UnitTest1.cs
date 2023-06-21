@@ -16,8 +16,16 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Assert.IsTrue(true);
-            Console.WriteLine("First Unit test case!!");
+            Console.WriteLine("First Unit test case");
          
+        }
+        [TestMethod]
+        [TestCategory("DevOps")]
+        public void TestMethod2()
+        {
+            Assert.IsTrue(true);
+            Console.WriteLine("Second Unit test case");
+
         }
         public void AfterTest()
         {
