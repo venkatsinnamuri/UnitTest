@@ -31,9 +31,8 @@ steps:
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
+-
 - task: VSTest@2
-  inputs:
-    testSelector: '- task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
@@ -41,5 +40,4 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    vsTestVersion: '17.0''
   
