@@ -16,7 +16,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             
-            Console.WriteLine("First Unit test case");
+            Console.WriteLine("First Unit test case1");
 
         }
         [TestMethod]
@@ -24,7 +24,7 @@ namespace UnitTestProject1
         public void TestMethod2()
         {
 
-            Console.WriteLine("Second Unit test case");
+            Console.WriteLine("Second Unit test case2");
 
         }
         [TestMethod]
@@ -32,7 +32,7 @@ namespace UnitTestProject1
         public void TestMethod3()
         {
 
-            Console.WriteLine("Third Unit test case");
+            Console.WriteLine("Third Unit test case3");
 
         }
 
@@ -41,7 +41,7 @@ namespace UnitTestProject1
         public void TestMethod4()
         {
 
-            Console.WriteLine("Fourth test case");
+            Console.WriteLine("Fourth test case4");
 
         }
 
