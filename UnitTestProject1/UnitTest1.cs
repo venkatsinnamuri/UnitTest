@@ -8,28 +8,28 @@ namespace UnitTestProject1
     {
         public void BeforeTest()
         {
-
+            //
         }
 
         [TestMethod]
         [TestCategory ("DevOps") ]
         public void TestMethod1()
         {
-            Assert.IsTrue(true);
-            Console.WriteLine("First Unit test case");
+              Console.WriteLine("First Unit test case");
+            //changes
          
         }
         [TestMethod]
         [TestCategory("DevOps")]
         public void TestMethod2()
         {
-            Assert.IsTrue(true);
+      
             Console.WriteLine("Second Unit test case");
-
+            //changes
         }
         public void AfterTest()
         {
-
+            //
         }
     }
 }
