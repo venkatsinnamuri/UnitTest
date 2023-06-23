@@ -36,6 +36,15 @@ namespace UnitTestProject1
 
         }
 
+          [TestMethod]
+        [TestCategory("DevOps")]
+        public void TestMethod4()
+        {
+
+            Console.WriteLine("Fourth test case");
+
+        }
+
         public void AfterTest()
         {
             //
