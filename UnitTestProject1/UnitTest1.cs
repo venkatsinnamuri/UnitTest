@@ -12,21 +12,30 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        [TestCategory ("DevOps") ]
+        [TestCategory("DevOps")]
         public void TestMethod1()
         {
-              Console.WriteLine("First Unit test case");
-            //changes
-         
+            
+            Console.WriteLine("First Unit test case");
+
         }
         [TestMethod]
         [TestCategory("DevOps")]
         public void TestMethod2()
         {
-      
+
             Console.WriteLine("Second Unit test case");
-            //changes
+
         }
+        [TestMethod]
+        [TestCategory("DevOps")]
+        public void TestMethod3()
+        {
+
+            Console.WriteLine("Third Unit test case");
+
+        }
+
         public void AfterTest()
         {
             //
