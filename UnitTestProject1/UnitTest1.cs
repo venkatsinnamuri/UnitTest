@@ -54,7 +54,15 @@ namespace UnitTestProject1
 
         }
 
-        public void AfterTest()
+        [TestMethod]
+        [TestCategory("DevOps")]
+        public void TestMethod6()
+        {
+
+            Console.WriteLine("Five test case6");
+
+
+            public void AfterTest()
         {
             //
         }
