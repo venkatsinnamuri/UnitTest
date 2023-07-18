@@ -15,7 +15,7 @@ namespace UnitTestProject1
         [TestCategory("DevOps")]
         public void TestMethod1()
         {
-            
+
             Console.WriteLine("First Unit test case1");
 
         }
@@ -36,7 +36,7 @@ namespace UnitTestProject1
 
         }
 
-          [TestMethod]
+        [TestMethod]
         [TestCategory("DevOps")]
         public void TestMethod4()
         {
@@ -45,7 +45,7 @@ namespace UnitTestProject1
 
         }
 
-           [TestMethod]
+        [TestMethod]
         [TestCategory("DevOps")]
         public void TestMethod5()
         {
@@ -61,10 +61,11 @@ namespace UnitTestProject1
 
             Console.WriteLine("Five test case6");
 
-
+        }
             public void AfterTest()
-        {
-            //
+            {
+                //
+            }
         }
     }
-}
+
